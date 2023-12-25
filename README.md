@@ -4,7 +4,7 @@
 kubectl create namespace virtualizacao &>/dev/null
 ```
 
-### 2. instalar Mysql
+### 2. Instalar Mysql
 
 ```bash
 helm install mysql -f wordpress/values-mysql.yaml bitnami/mysql --version '9.15.0' --namespace virtualizacao &> mysql.log
